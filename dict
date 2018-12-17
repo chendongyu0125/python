@@ -1,0 +1,6 @@
+通过 pop删除一个key
+属于 Iterator，可以进行迭代
+x={}
+from collections import Iterator
+$ isinstance(x, Iterator)
+True
