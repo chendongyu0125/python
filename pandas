@@ -6,3 +6,8 @@ plats['Open_Date']=pd.to_datetime(plats['工商信息_开业日期'], format="%Y
 %H - hour
 %M - minutes
 %S - seconds
+
+获取年份：
+plats['Open_Date'].dt.year
+
+
