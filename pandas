@@ -1,0 +1,2 @@
+将字符串转为时间：
+plats['Open_Date']=pd.to_datetime(plats['工商信息_开业日期'], format="%Y年%m月%d日")
